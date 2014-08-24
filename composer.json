@@ -1,0 +1,14 @@
+{
+    "name": "koala-framework/kwc-theme-grey-box",
+    "description": "Koala Framework Grey Box Theme, based on Catch Box Theme",
+    "homepage": "http://www.koala-framework.org/",
+    "license": "BSD-2-Clause",
+    "require": {
+        "koala-framework/koala-framework": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Theme_": ""
+        }
+    }
+}
