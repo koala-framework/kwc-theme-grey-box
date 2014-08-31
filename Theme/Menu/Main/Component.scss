@@ -1,7 +1,7 @@
 @import "compass/css3/images";
 
 .cssClass.webStandard {
-    @include background(linear-gradient(#585858, #3d3d3d));
+    @include background-image(linear-gradient(#585858, #3d3d3d));
     
     ul {
         height: 42px;
@@ -31,7 +31,7 @@
 
             &:hover {
                 color: #373737;
-                @include background(linear-gradient(#f9f9f9, #e5e5e5));
+                @include background-image(linear-gradient(#f9f9f9, #e5e5e5));
             }
         }
 
