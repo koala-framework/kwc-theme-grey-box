@@ -79,8 +79,7 @@ class Theme_Component extends Kwf_Component_Theme_Abstract
             'subMenu' => 200
         );
 
-        $ret['masterTemplate'] = dirname(__FILE__).'/Master.tpl';
-
+        $ret['masterTemplate'] = substr(dirname(__FILE__), strlen(getcwd())+1).'/Master.tpl';
         $ret['assets']['files'][] = 'theme/Theme/Web.scss';
         $ret['assets']['files'][] = 'theme/Theme/Master.scss';
 
