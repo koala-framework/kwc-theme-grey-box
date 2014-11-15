@@ -4,7 +4,7 @@
     "homepage": "http://www.koala-framework.org/",
     "license": "BSD-2-Clause",
     "require": {
-        "koala-framework/koala-framework": "dev-master"
+        "koala-framework/koala-framework": "3.8.*"
     },
     "autoload": {
         "psr-0": {
